@@ -1,0 +1,49 @@
+## --------------------------------------------------------------  ##
+##                                                                 ##
+##  Heroku centric slugignore which removes unnecessary items      ##
+##  from being included in the release.                            ##
+##  @link: https://devcenter.heroku.com/articles/slug-compiler     ##
+##  @link: https://goo.gl/J4jmUB                                   ##
+##                                                                 ##
+##  General Guideline:                                             ##
+##  Any file that isn't necessary for the application to run       ##
+##  should be omitted via .slugignore. This includes tests, source ##
+##  files that are used to generate static css/html/js files,      ##
+##  and any files included in the .ignore.                         ##
+##                                                                 ##
+##                                                                 ##
+## Updated 01/28/2018 - AB                                         ##
+## --------------------------------------------------------------  ##
+
+
+#             SOP FILES TO NEVER INCLUDE
+# --------------------------------------------------  #
+/.backup
+/.idea
+/.src
+/test
+/tests
+.DS_Store
+*.sql
+.env
+*.md
+nginx_local.conf
+
+
+#        BUILD DEPENDENCIES & DOCUMENTATION
+# --------------------------------------------------  #
+/vendor
+/node_modules
+package-lock.json
+gulpfile.js
+phpunit.xml
+
+
+
+#       DEVELOPMENT & LOG FILES
+# --------------------------------------------------  #
+/.vagrant
+Vagrantfile
+vBootstrap.sh
+/public/log
+/UnitTests

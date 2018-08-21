@@ -1,0 +1,47 @@
+{
+  "name": "vue-boilerplate",
+  "description": "Vue 2.x boilerplate SPA w/ Vue CLI 3.x, Vue Router, Babel, Chai, SCSS, and Webpack.",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Alex Bard",
+  "homepage": "",
+  "contributors": [
+    "Alex Bard <alex@bardworx.com> (https://github.com/bardworx)"
+  ],
+  "bugs": {
+    "url": ""
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.1",
+    "@vue/cli-plugin-eslint": "^3.0.1",
+    "@vue/cli-plugin-unit-mocha": "^3.0.1",
+    "@vue/cli-service": "^3.0.1",
+    "@vue/eslint-config-airbnb": "^3.0.1",
+    "@vue/test-utils": "^1.0.0-beta.20",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.22.1",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.16.5"
+  },
+  "keywords": ["Boilerplate", "Front-End", "SPA"],
+  "repository": "https://github.com/",
+  "license": "MIT"
+}
