@@ -42,6 +42,6 @@
     "webpack": "^4.16.5"
   },
   "keywords": ["Boilerplate", "Front-End", "SPA"],
-  "repository": "https://github.com/",
+  "repository": "https://github.com/bardworx/vue-boilerplate",
   "license": "MIT"
 }
